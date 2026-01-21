@@ -1,0 +1,24 @@
+/* Reset general y variables de color */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Colores */
+  --primary-color: #646cff;
+  --bg-color: #f8f9fa;
+  --text-color: #213547;
+  --card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Muy importante para el Layout */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
