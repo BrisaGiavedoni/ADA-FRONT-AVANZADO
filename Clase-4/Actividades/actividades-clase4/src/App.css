@@ -1,0 +1,57 @@
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  border: 1px solid #3498db;
+  color: #2c3e50;
+}
+
+.card {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* Estilo para el mensaje de la Actividad 4 */
+.alerta-mensaje {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Estilo para las notificaciones */
+.notificacion-badge {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
