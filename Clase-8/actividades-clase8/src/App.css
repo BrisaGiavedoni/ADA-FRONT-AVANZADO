@@ -1,0 +1,58 @@
+/* Estilo para el contenedor de cada actividad */
+div {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+/* Títulos */
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* Todos los inputs de texto */
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Cambia el color del borde al hacer foco */
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Todos los botones */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Párrafos de resultado */
+p {
+  color: #666;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* Negritas para resaltar el valor */
+b {
+  color: #000;
+}
