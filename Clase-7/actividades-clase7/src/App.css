@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(300, 84%, 13%);
+  
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 2px solid black;
+  background-color: rgb(29, 2, 24);
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: blueviolet;
+}
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  list-style: none;
+  border: 1px solid black;
+  padding: 0.5rem;
+  width: 200px;
+  margin: 0.5rem auto;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
