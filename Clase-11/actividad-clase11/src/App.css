@@ -1,0 +1,153 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/1200x/41/c8/66/41c866d8f16612c4e0886a6093edaea4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+}
+
+
+.container {
+  background-color: rgba(77, 115, 255, 0.9);
+  max-width: 600px;
+  width: 90%;
+  padding: 30px;
+  border-radius: 25px;
+  border: 5px solid #000;
+  color: white;
+  text-align: center;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.titulo {
+  color: #FFD90F; 
+  text-shadow: 4px 4px 0px #000;
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.progreso {
+  font-weight: bold;
+  background-color: #000;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.card-pregunta {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  border: 4px solid #000;
+  margin: 2rem;
+
+}
+
+.card-pregunta h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+
+.grid-opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.boton-opcion {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #FFD90F;
+  border: 3px solid #000;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 4px 4px 0px #000;
+}
+
+.boton-opcion:hover:not(:disabled) {
+  background-color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 0px #000;
+}
+
+.boton-opcion:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.boton-opcion:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+
+.alerta {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 3px solid #000;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: white;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.correcto {
+  background-color: #2ecc71; 
+}
+
+.incorrecto {
+  background-color: #e74c3c; 
+}
+
+
+.boton-siguiente {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #FFD90F;
+  color: #000;
+  border: 3px solid #000;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 4px 4px 0px #000;
+}
+
+.boton-siguiente:hover {
+  background-color: #fff;
+}
+
+
+.victoria-seccion {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 217, 15, 0.2);
+  border-radius: 15px;
+  border: 2px dashed #FFD90F;
+}
+
+.victoria {
+  color: #FFD90F;
+  text-shadow: 2px 2px 0px #000;
+  font-size: 1.8rem;
+}
