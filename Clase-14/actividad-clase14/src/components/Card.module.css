@@ -1,0 +1,21 @@
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px 0;
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.alert {
+  border-left: 5px solid #dc3545;
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.destacado {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  border-color: #007bff;
+}

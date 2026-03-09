@@ -1,0 +1,18 @@
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #dc3545;
+  color: white;
+}
+
+.success {
+  background-color: #28a745;
+  color: white;
+}
